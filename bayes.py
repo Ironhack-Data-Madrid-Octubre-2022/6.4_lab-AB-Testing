@@ -24,7 +24,7 @@ def g(a, b, c, d):
     return g0(a, b, c) + sum(hiter(a, b, c, d))
 
 
-
+#Haya el punto de cruce
 def calc_prob(beta1, beta2):
     return g(beta1.args[0], beta1.args[1], beta2.args[0], beta2.args[1])
     
